@@ -13,6 +13,7 @@ import ConditionalEffect from "./Hooks/ConditionalEffect";
 import Counter from "./Hooks/Counter";
 import EffectOnce from "./Hooks/EffectOnce";
 import FetchData from "./Hooks/FetchData";
+import IndPostFetch from "./Hooks/IndPostFetch";
 import MouseContainer from "./Hooks/MouseContainer";
 import ObjectHook from "./Hooks/ObjectHook";
 import UseEffectHook from "./Hooks/UseEffectHook";
@@ -52,7 +53,8 @@ function App() {
       {/* <ConditionalEffect /> */}
       {/* <EffectOnce /> */}
       {/* <MouseContainer /> */}
-      <FetchData />
+      {/* <FetchData /> */}
+      <IndPostFetch />
     </div>
   );
 }
